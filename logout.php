@@ -1,0 +1,21 @@
+<?php
+	ob_start();
+	session_start();
+	session_destroy();
+	if(($_GET['link'])=="home")
+	{
+		Header("Location:index.php");
+		exit;
+	}
+	if(($_GET['link'])=="login")
+	{
+		Header("Location:index.php?page=login");
+		exit;
+	}
+	if(($_GET['link'])=="register")
+	{
+		Header("Location:index.php?page=register");
+		exit;
+	}
+	ob_end_flush();
+?>

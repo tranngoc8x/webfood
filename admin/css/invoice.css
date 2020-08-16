@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #FFFFFF;
+}
+body, td, th, input, select, textarea, option, optgroup {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+h1 {
+	text-transform: uppercase;
+	color: #CCCCCC;
+	text-align: right;
+	font-size: 24px;
+	font-weight: normal;
+	padding-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #CDDDDD;
+}
+.div1 {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.div2 {
+	float: left;
+	display: inline-block;
+}
+.div3 {
+	float: right;
+	display: inline-block;
+	padding: 5px;
+}
+.heading td {
+	background: #E7EFEF;
+}
+.address, .product {
+	border-collapse: collapse;
+}
+.address {
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: 1px solid #CDDDDD;
+	border-right: 1px solid #CDDDDD;
+}
+.address th, .address td {
+	border-left: 1px solid #CDDDDD;
+	border-bottom: 1px solid #CDDDDD;
+	padding: 5px;
+}
+.address td {
+	width: 50%;
+}
+.product {
+	width: 100%;
+	margin-bottom: 20px;
+	border-top: 1px solid #CDDDDD;
+	border-right: 1px solid #CDDDDD;
+}
+.product td {
+	border-left: 1px solid #CDDDDD;
+	border-bottom: 1px solid #CDDDDD;
+	padding: 5px;
+}
+#tooltip	{
+	background-color: #8c8c8c;
+	border: 1px solid #767676;
+	color: #fff;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	opacity: 0.85;
+	padding: 0 5px;
+	position: absolute;
+	text-align: left;
+	z-index: 3000;
+	}
+#tooltip h6, #tooltip div	{
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 20px;
+	margin: 0;
+	}
+.file_input_textbox{
+	float: left;
+	height:23px;
+	width:115px;
+}
+
+.file_input_div{
+	width:200px;
+	position: relative; 
+	height:27px;
+	border: 0px #F00 solid;
+}
+
+.file_input_button{
+	cursor:pointer;
+	width: 78px;
+	height:27px;
+	text-indent:-9999px;
+	position: absolute; 
+	top: 0px;
+}
+
+.file_input_hidden{
+	position: absolute; 
+	left: 0px; 
+	top: 0px; 
+	height:29px;
+	width:100%;
+	opacity: 0; 
+	
+	filter: alpha(opacity=0); 
+	-ms-filter: "alpha(opacity=0)"; 
+	-khtml-opacity: 0; 
+	-moz-opacity: 0;
+}
